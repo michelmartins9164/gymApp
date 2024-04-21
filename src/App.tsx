@@ -4,7 +4,7 @@ function App() {
 
   return (
     <Fragment>
-      <p>First commit</p>
+      <p className="text-sm font-medium text-red-800">First commit</p>
     </Fragment>
   )
 }
