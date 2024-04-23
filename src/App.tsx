@@ -1,10 +1,11 @@
 import { Fragment } from "react/jsx-runtime"
+import Header from "./components/header"
 
 function App() {
 
   return (
     <Fragment>
-      <p className="text-sm font-medium text-red-800">First commit</p>
+      <Header/>
     </Fragment>
   )
 }
