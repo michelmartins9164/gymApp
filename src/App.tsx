@@ -1,10 +1,10 @@
-import { Fragment } from "react/jsx-runtime"
+import { Fragment } from 'react/jsx-runtime'
+import Hero from './components/hero'
 
 function App() {
-
   return (
     <Fragment>
-      <p className="text-sm font-medium text-red-800">First commit</p>
+      <Hero />
     </Fragment>
   )
 }
