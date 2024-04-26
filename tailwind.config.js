@@ -9,6 +9,9 @@ export default {
     fontFamily: {
       poppins: ['Poppins', 'sans-serif'],
       bebas: ['Bebas Neue', 'sans-serif']
+    },
+    backgroundImage: {
+      background_man: 'url(/src/assets/images/man.svg)'
     }
   },
   plugins: [],
