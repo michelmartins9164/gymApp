@@ -1,13 +1,7 @@
-import { Fragment } from "react/jsx-runtime"
-import Header from "./components/header"
+import Hero from './components/hero'
 
 function App() {
-
-  return (
-    <Fragment>
-      <Header/>
-    </Fragment>
-  )
+  return <Hero />
 }
 
 export default App
