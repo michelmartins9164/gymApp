@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         scarlet: '#FF0000',
+        paleGray: '#121212',
       }
     },
     fontFamily: {
