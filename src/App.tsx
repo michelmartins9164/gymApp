@@ -1,5 +1,6 @@
 import AboutUs from './components/about-us'
 import Hero from './components/hero'
+import Trainers from './components/trainers'
 import WhyChooseUs from './components/why-choose-us'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Hero />
       <WhyChooseUs />
       <AboutUs />
+      <Trainers />
     </div>
   )
 }
