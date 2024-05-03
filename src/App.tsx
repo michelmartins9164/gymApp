@@ -1,3 +1,4 @@
+import AboutUs from './components/about-us'
 import Hero from './components/hero'
 import WhyChooseUs from './components/why-choose-us'
 
@@ -6,6 +7,7 @@ function App() {
     <div>
       <Hero />
       <WhyChooseUs />
+      <AboutUs />
     </div>
   )
 }

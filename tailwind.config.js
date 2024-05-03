@@ -16,7 +16,8 @@ export default {
       bebas: ['Bebas Neue', 'sans-serif']
     },
     backgroundImage: {
-      background_man: 'url(/src/assets/images/man.svg)'
+      background_hero: 'url(/src/assets/images/hero.svg)',
+      background_about: 'url(/src/assets/images/about.svg)'
     },
 
   },
