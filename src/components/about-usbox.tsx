@@ -1,3 +1,5 @@
+import TransparentButton from './transparentbutton'
+
 export default function AboutUsBox() {
   return (
     <div className="w-6/12">
@@ -14,12 +16,8 @@ export default function AboutUsBox() {
         in mauris gravida id cursus urna. Magnis vulputate orci risus felis eget
         lectus morbi. Et cursus mauris condimentum pretium arcu sed dignissim.
       </p>
-      <a
-        href="#"
-        className="flex items-center justify-center h-14 w-40 text-xl font-bebas text-scarlet border border-solid border-scarlet mb-20"
-      >
-        SOBRE NÓS
-      </a>
+
+      <TransparentButton desc="SOBRE NÓS" />
     </div>
   )
 }

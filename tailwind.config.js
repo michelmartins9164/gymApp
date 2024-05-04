@@ -17,7 +17,9 @@ export default {
     },
     backgroundImage: {
       background_hero: 'url(/src/assets/images/hero.svg)',
-      background_about: 'url(/src/assets/images/about.svg)'
+      background_about: 'url(/src/assets/images/about.svg)',
+      background_testimonials: 'url(/src/assets/images/testimonials.svg)',
+      background_testimonials_mask: 'url(/src/assets/images/testimonialsTransparencyMask.svg)'
     },
 
   },
