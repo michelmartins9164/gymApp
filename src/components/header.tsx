@@ -7,7 +7,7 @@ export default function Header() {
     'FALE CONOSCO'
   ]
   return (
-    <nav className="flex items-center px-24 text-white h-20 font-bebas">
+    <nav className="flex items-center justify-center px-24 text-white h-20 font-bebas">
       <span className="flex items-center space-x-60 ">
         <h1 className="text-3xl">
           IRON<b className="text-scarlet">GYM</b>
