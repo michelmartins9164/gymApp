@@ -6,6 +6,7 @@ export default function Header() {
     'RELATOS',
     'FALE CONOSCO'
   ]
+
   return (
     <nav className="flex items-center justify-center px-24 text-white h-20 font-bebas">
       <span className="flex items-center space-x-60 ">
@@ -14,7 +15,6 @@ export default function Header() {
         </h1>
         <span className="flex space-x-10 text-xl">
           {NavRoutes.map((nav) => {
-            console.log(nav)
             return <p key={nav}> {nav} </p>
           })}
         </span>
