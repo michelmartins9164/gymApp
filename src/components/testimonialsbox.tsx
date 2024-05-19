@@ -1,5 +1,5 @@
-import star_image from '../assets/images/star.svg'
 import testemony_image from '../assets/images/testemony.svg'
+import FiveStar from './five-star'
 
 export default function TestimonialsBox() {
   return (
@@ -11,12 +11,8 @@ export default function TestimonialsBox() {
         testemunhei uma transformação notável na força, resistência e níveis
         gerais de condicionamento físico."
       </p>
-      <span className="flex mt-8 mb-10">
-        <img src={star_image} alt="imagem de estrela" />
-        <img src={star_image} alt="imagem de estrela" />
-        <img src={star_image} alt="imagem de estrela" />
-        <img src={star_image} alt="imagem de estrela" />
-        <img src={star_image} alt="imagem de estrela" />
+      <span className="mt-8 mb-10">
+        <FiveStar />
       </span>
 
       <h2 className="font-bebas text-white text-4xl mb-4"> JHONY BREAKER </h2>
