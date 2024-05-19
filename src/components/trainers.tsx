@@ -1,3 +1,5 @@
+import TrainersBox from './trainersbox'
+
 export default function Trainers() {
   return (
     <div className="bg-paleGray w-full h-[1080px] flex flex-col items-center py-20">
@@ -9,6 +11,7 @@ export default function Trainers() {
         Se você deseja montar uma academia em casa ou aprimorar sua rotina de
         exercícios atual
       </p>
+      <TrainersBox />
     </div>
   )
 }
